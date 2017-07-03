@@ -17,6 +17,7 @@ if size(M,2)>1
     minimumX = min(inliers(:,1));
     maximumX = min(inliers(:,2));
 
+    % Plot inliers and outliers
 %     %figure(6);
 %     x1 = linspace(minX-50,maxX+50);
 %     y1 = polyval(M,x1);
